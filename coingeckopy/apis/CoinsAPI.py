@@ -1,4 +1,4 @@
-ciapi = "https://api.coingecko.com/api/v3/coin/"
+RESOURCE_URL = "/coin/"
 
 
 class CoinsAPI:
