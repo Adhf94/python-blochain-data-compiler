@@ -37,4 +37,3 @@ def test_list_success():
         assert coin.symbol == list_endpoint_response[index]["symbol"]
         assert coin.name == list_endpoint_response[index]["name"]
 
-def test_list_error()
