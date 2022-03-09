@@ -15,3 +15,7 @@ class CoinsAPI:
         response = requests.get(f"{API_URL}{RESOURCE_URL}/list/")
         coins = [Coin.parse_obj(coin) for coin in response.json()]
         return coins
+
+
+asd = CoinsAPI()
+print(asd.list())
