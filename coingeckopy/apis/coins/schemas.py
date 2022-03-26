@@ -31,8 +31,8 @@ class CoinMarkets(BaseModel):
     max_supply: Optional[str]
     ath: str
     ath_change_percentage: str
-    ath_date: datetime
+    ath_date: str
     atl: str
     atl_change_percentage: str
-    atl_date: datetime
+    atl_date: str
     last_updated: str
